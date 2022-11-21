@@ -17,7 +17,7 @@ const client = new Client({
   intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MEMBERS, Intents.FLAGS.GUILD_MESSAGES],
 });
 
-mongoose.connect(config.mongodbUrl, {
+mongoose.connect("mongodb+srv://egteam:TONY_YOUSSEF@cluster0.lt1comu.mongodb.net/test", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
@@ -90,4 +90,4 @@ client.on("error", console.error);
 client.on("warn", console.warn);
 
 // We login into the bot.
-client.login(config.token);
+client.login("OTgzNjg4NDY4OTE4MDUwODc2.GGLPb7.LpSz45Cl7THKSmtwLbJ3gMcDaM8v-j4eRzeGq4");
