@@ -7,16 +7,11 @@
     "start": "node index.js",
     "test": "nodemon index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MrAugu/discord-bot-dashboard.git"
-  },
   "keywords": [
     "discord.js",
     "bot",
     "dashboard"
   ],
-  "author": "MrAugu#7917",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/MrAugu/discord-bot-dashboard/issues"
